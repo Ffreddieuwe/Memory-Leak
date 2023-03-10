@@ -510,7 +510,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.3566492
+  orthographic size: 4.8859663
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -534,7 +534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.51, y: 24.21, z: -6.6411996}
+  m_LocalPosition: {x: -25.51, y: 25.2, z: -80}
   m_LocalScale: {x: 0.4349907, y: 0.61051327, z: 0.61051327}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1050,7 +1050,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062733267}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.83, y: 16.12, z: 0.19587032}
+  m_LocalPosition: {x: -4.5, y: 16.12, z: 0.19587032}
   m_LocalScale: {x: 5.9975758, y: 6.6531453, z: 1.0436914}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1467,14 +1467,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397688116}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -41.19, y: 14.4, z: 0.19587032}
-  m_LocalScale: {x: 1.8807995, y: 17.00936, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7944657, w: 0.6073089}
+  m_LocalPosition: {x: 1.08, y: 19.93, z: 0.19587032}
+  m_LocalScale: {x: 1.9796616, y: 15.217636, z: 0.66412}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1368717397}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 105.21}
 --- !u!61 &1397688118
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1912,7 +1912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773675367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7800002, y: 17.32, z: 0.19587032}
+  m_LocalPosition: {x: 1.38, y: 17.32, z: 0.19587032}
   m_LocalScale: {x: 5.816244, y: 7.773397, z: 1.3073426}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1932,7 +1932,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.44902617}
+  m_Offset: {x: 0, y: 0.29907912}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1943,7 +1943,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.101947695}
+  m_Size: {x: 1, y: 0.40184176}
   m_EdgeRadius: 0
 --- !u!212 &1773675370
 SpriteRenderer:
@@ -2270,7 +2270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119562909}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.59, y: 11.14, z: 0.19587032}
+  m_LocalPosition: {x: -15.43, y: 11.14, z: 0.19587032}
   m_LocalScale: {x: 5.555973, y: 9.898483, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

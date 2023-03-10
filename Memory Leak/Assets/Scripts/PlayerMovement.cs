@@ -57,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
         }
         
+        
     }
 
     private void OnCollisionExit2D(Collision2D other)
