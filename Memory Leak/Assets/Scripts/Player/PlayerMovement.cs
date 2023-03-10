@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
@@ -12,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isJumping;
 
     private Rigidbody2D rb;
+
 
 
     // Start is called before the first frame update
