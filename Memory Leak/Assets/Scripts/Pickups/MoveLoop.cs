@@ -20,7 +20,7 @@ public class MoveLoop : MonoBehaviour
         if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName ("DemoLevel"))
         {
             float y = Mathf.PingPong(Time.time * speed, 0.5f);
-            powerup.transform.localPosition = new Vector3(1.61f, y, -1.17f);
+            powerup.transform.localPosition = new Vector3(-0.09f, y, -0.85f);
         }
 
         else if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName ("DemoLvl2"))

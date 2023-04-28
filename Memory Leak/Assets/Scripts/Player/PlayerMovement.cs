@@ -9,21 +9,22 @@ public class PlayerMovement : MonoBehaviour
     private float Move;
     
     public float jump;
-    public int doubleJump = 0;
+    public int totalJumps = 0;
     public bool isJumping;
 
     private Rigidbody2D rb;
 
+    Vector2 originalPos;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("DemoLvl2"))
         {
-            doubleJump = 1;
+            totalJumps = 1;
         }
+
+        originalPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 
     // Update is called once per frame
@@ -35,19 +36,19 @@ public class PlayerMovement : MonoBehaviour
 
         
 
-            if (Input.GetButtonDown("Jump") && (isJumping == false || doubleJump == 1))
+            if (Input.GetButtonDown("Jump") && (!isJumping || totalJumps == 1))
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
-            if(doubleJump == 1)
+            if(totalJumps == 1)
             {
-                doubleJump = 2;
+                totalJumps = 2;
                 
             }
                 
         }
-        if(isJumping == false && doubleJump == 2)
+        if(isJumping && totalJumps == 2)
         {
-            doubleJump = 1;
+            totalJumps = 1;
 
         }
     }
@@ -72,11 +73,17 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("PowerUp") && doubleJump == 0)
+        if(other.gameObject.CompareTag("PowerUp") && totalJumps == 0)
         {
-            doubleJump = 1;
+            totalJumps = 1;
+        }
+        if(other.gameObject.CompareTag("DeathBarrier"))
+        {
+            transform.position = originalPos;
         }
     }
+
+    
 }
 
 
