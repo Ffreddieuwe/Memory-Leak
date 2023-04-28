@@ -245,9 +245,10 @@ GameObject:
   - component: {fileID: 156478702}
   - component: {fileID: 156478704}
   - component: {fileID: 156478703}
+  - component: {fileID: 156478705}
   m_Layer: 0
   m_Name: Platform (14)
-  m_TagString: Ground
+  m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,6 +346,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &156478705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156478701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39140af2c8bd274b90907cde7af2782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &176682067
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,9 +981,10 @@ GameObject:
   - component: {fileID: 778058340}
   - component: {fileID: 778058342}
   - component: {fileID: 778058341}
+  - component: {fileID: 778058343}
   m_Layer: 0
   m_Name: Platform (13)
-  m_TagString: Ground
+  m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1068,6 +1082,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &778058343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778058339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39140af2c8bd274b90907cde7af2782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &950066878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,9 +1327,10 @@ GameObject:
   - component: {fileID: 1081094770}
   - component: {fileID: 1081094772}
   - component: {fileID: 1081094771}
+  - component: {fileID: 1081094773}
   m_Layer: 0
   m_Name: Platform (15)
-  m_TagString: Ground
+  m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1401,6 +1428,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1081094773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081094769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39140af2c8bd274b90907cde7af2782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1082401651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,9 +1757,10 @@ GameObject:
   - component: {fileID: 1402847059}
   - component: {fileID: 1402847061}
   - component: {fileID: 1402847060}
+  - component: {fileID: 1402847062}
   m_Layer: 0
   m_Name: Platform (16)
-  m_TagString: Ground
+  m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1818,6 +1858,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1402847062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402847058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39140af2c8bd274b90907cde7af2782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1755260114
 GameObject:
   m_ObjectHideFlags: 0
