@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    public void SwitchScene()
+    public void FixedUpdate()
     {
-        Debug.Log("test");
-        SceneManager.LoadScene("DemoLevel");
+        if (Input.GetKey(KeyCode.Space))
+        {
+            SceneManager.LoadScene("DemoLevel");
+        }
     }
 }
