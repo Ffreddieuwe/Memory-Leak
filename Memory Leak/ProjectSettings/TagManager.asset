@@ -15,7 +15,7 @@ TagManager:
   - Rope
   - Water
   - UI
-  - 
+  - Pivot
   - 
   - 
   - 
@@ -47,4 +47,10 @@ TagManager:
     locked: 0
   - name: front
     uniqueID: 3274587569
+    locked: 0
+  - name: barrier
+    uniqueID: 2744959963
+    locked: 0
+  - name: phone
+    uniqueID: 1380622231
     locked: 0
