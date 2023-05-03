@@ -839,8 +839,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653317695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.83, y: -1.16, z: 4.11}
-  m_LocalScale: {x: -2.0935357, y: 1.8206009, z: -2.0421622}
+  m_LocalPosition: {x: -3.83, y: -1.28, z: 4.11}
+  m_LocalScale: {x: -2.0935357, y: 1.7523283, z: -2.0421622}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1564,6 +1564,7 @@ GameObject:
   - component: {fileID: 1180573103}
   - component: {fileID: 1180573106}
   - component: {fileID: 1180573107}
+  - component: {fileID: 1180573108}
   m_Layer: 0
   m_Name: L3TH-3
   m_TagString: Player
@@ -1666,7 +1667,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180573101}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1701,6 +1702,22 @@ MonoBehaviour:
   jump: 200
   totalJumps: 0
   isJumping: 0
+--- !u!70 &1180573108
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180573101}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.069667794, y: -0.29999998}
+  m_Size: {x: 6.8966556, y: 9.499999}
+  m_Direction: 0
 --- !u!1 &1368717396
 GameObject:
   m_ObjectHideFlags: 0
