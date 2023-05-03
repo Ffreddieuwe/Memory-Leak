@@ -26,7 +26,7 @@ public class MoveLoop : MonoBehaviour
         else if(SceneManager.GetActiveScene() == SceneManager.GetSceneByName ("DemoLvl2"))
         {
             float y = 28 + (Mathf.PingPong(Time.time * speed, 0.5f));
-            powerup.transform.localPosition = new Vector3(5, y, 0);
+            powerup.transform.localPosition = new Vector3(-2.58f, y, 0);
         }
 
 
