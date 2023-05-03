@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 156478703}
   - component: {fileID: 156478705}
   m_Layer: 0
-  m_Name: Platform (14)
+  m_Name: DeathBarrier2
   m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,11 +261,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156478701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.254001, y: -13.01, z: -0.65864}
-  m_LocalScale: {x: -0.17248064, y: 0.18853234, z: 0.35824144}
+  m_LocalPosition: {x: -3.5192955, y: -6.0338984, z: 80.104576}
+  m_LocalScale: {x: -0.13499889, y: 0.1475624, z: 0.28039202}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1368717397}
+  m_Father: {fileID: 759659802}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &156478703
@@ -601,13 +601,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0.3
+    height: 0.25
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.387472
+  orthographic size: 7.400688
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -970,6 +970,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ac31ac70c007e4a9d1cdecc43db2b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &759659801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759659802}
+  m_Layer: 0
+  m_Name: DeathBarrier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &759659802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759659801}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.7575912, y: -5.300821, z: -103.00384}
+  m_LocalScale: {x: 1.2776449, y: 1.2776449, z: 1.2776449}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 778058340}
+  - {fileID: 156478702}
+  - {fileID: 1081094770}
+  - {fileID: 1402847059}
+  m_Father: {fileID: 1368717397}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &778058339
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,7 +1018,7 @@ GameObject:
   - component: {fileID: 778058341}
   - component: {fileID: 778058343}
   m_Layer: 0
-  m_Name: Platform (13)
+  m_Name: DeathBarrier1
   m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -997,11 +1032,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778058339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.42, y: -13.01, z: -0.65864}
-  m_LocalScale: {x: -0.16223963, y: 0.18853234, z: 0.35824144}
+  m_LocalPosition: {x: -10.693433, y: -6.0338984, z: 80.104576}
+  m_LocalScale: {x: -0.12698334, y: 0.1475624, z: 0.28039202}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1368717397}
+  m_Father: {fileID: 759659802}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &778058341
@@ -1329,7 +1364,7 @@ GameObject:
   - component: {fileID: 1081094771}
   - component: {fileID: 1081094773}
   m_Layer: 0
-  m_Name: Platform (15)
+  m_Name: DeathBarrier3
   m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1343,11 +1378,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081094769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6479006, y: -13.01, z: -0.65864}
-  m_LocalScale: {x: -0.17248064, y: 0.18853234, z: 0.35824144}
+  m_LocalPosition: {x: 3.9993043, y: -6.0338984, z: 80.104576}
+  m_LocalScale: {x: -0.13499889, y: 0.1475624, z: 0.28039202}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1368717397}
+  m_Father: {fileID: 759659802}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1081094771
@@ -1746,6 +1781,7 @@ Transform:
   m_LocalScale: {x: 0.7826901, y: 0.7826901, z: 0.7826901}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 759659802}
   - {fileID: 1755260117}
   - {fileID: 541913735}
   - {fileID: 102796712}
@@ -1756,10 +1792,6 @@ Transform:
   - {fileID: 293962236}
   - {fileID: 2105400765}
   - {fileID: 1082401652}
-  - {fileID: 778058340}
-  - {fileID: 156478702}
-  - {fileID: 1081094770}
-  - {fileID: 1402847059}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1776,7 +1808,7 @@ GameObject:
   - component: {fileID: 1402847060}
   - component: {fileID: 1402847062}
   m_Layer: 0
-  m_Name: Platform (16)
+  m_Name: DeathBarrier4
   m_TagString: DeathBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1790,11 +1822,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402847058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.81, y: -13.01, z: -0.65864}
-  m_LocalScale: {x: -0.17248064, y: 0.18853234, z: 0.35824144}
+  m_LocalPosition: {x: 10.61922, y: -6.0338984, z: 80.104576}
+  m_LocalScale: {x: -0.13499889, y: 0.1475624, z: 0.28039202}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1368717397}
+  m_Father: {fileID: 759659802}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1402847060
